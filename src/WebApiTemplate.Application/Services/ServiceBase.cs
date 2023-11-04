@@ -1,7 +1,8 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.OData.Query;
 using Microsoft.EntityFrameworkCore;
-using WebApiTemplate.Application.Interfaces;
+using WebApiTemplate.Application.Interfaces.Api;
+using WebApiTemplate.Application.Interfaces.Application;
 using WebApiTemplate.SharedKernel.Exceptions;
 using WebApiTemplate.SharedKernel.Interfaces;
 using WebApiTemplate.SharedKernel.Models;

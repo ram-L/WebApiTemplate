@@ -1,7 +1,7 @@
 ﻿using Microsoft.IdentityModel.Tokens;
 using System.Security.Cryptography;
 using System.Text;
-using WebApiTemplate.Application.Interfaces;
+using WebApiTemplate.Application.Interfaces.Api;
 using WebApiTemplate.SharedKernel.Exceptions;
 
 namespace WebApiTemplate.Api.Authorization

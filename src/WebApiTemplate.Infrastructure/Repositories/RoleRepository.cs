@@ -1,11 +1,10 @@
-﻿using NetCoreApiTemplate.Infrastructure.Repositories.Interfaces;
+﻿using WebApiTemplate.Application.Interfaces.Infrastructure;
 using WebApiTemplate.Domain.Entities;
 using WebApiTemplate.Infrastructure.Data;
 using WebApiTemplate.Infrastructure.Repositories.Common;
-using WebApiTemplate.Infrastructure.Repositories.Interfaces;
 using WebApiTemplate.SharedKernel.Interfaces;
 
-namespace WebApiTemplate.Infrastructure.Repositories.Implementations
+namespace WebApiTemplate.Infrastructure.Repositories
 {
     public class RoleRepository : AuditEntityRepositoryBase<Role>, IRoleRepository
     {

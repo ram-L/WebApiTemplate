@@ -3,7 +3,7 @@ using WebApiTemplate.SharedKernel.Enums;
 using WebApiTemplate.SharedKernel.Helpers;
 using WebApiTemplate.SharedKernel.Models;
 
-namespace WebApiTemplate.Infrastructure.Repositories.Interfaces
+namespace WebApiTemplate.Application.Interfaces.Infrastructure
 {
     /// <summary>
     /// Provides a generic repository interface for database operations.

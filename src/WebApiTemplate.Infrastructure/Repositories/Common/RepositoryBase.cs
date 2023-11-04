@@ -1,9 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
 using Serilog.Events;
 using System.Linq.Expressions;
+using WebApiTemplate.Application.Interfaces.Infrastructure;
 using WebApiTemplate.Infrastructure.Data;
-using WebApiTemplate.Infrastructure.Repositories.Interfaces;
 using WebApiTemplate.SharedKernel.Enums;
 using WebApiTemplate.SharedKernel.Extensions;
 using WebApiTemplate.SharedKernel.Helpers;

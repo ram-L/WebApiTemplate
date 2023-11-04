@@ -1,12 +1,9 @@
-﻿using Microsoft.AspNetCore.Authentication.Google;
-using Microsoft.AspNetCore.Authentication;
+﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using WebApiTemplate.Api.Authorization;
-using WebApiTemplate.Application.Interfaces;
+using WebApiTemplate.Application.Interfaces.Application;
 using WebApiTemplate.Application.Models.Auth;
-using WebApiTemplate.SharedKernel.Enums;
-using System.Security.Claims;
 
 namespace WebApiTemplate.Api.Controllers
 {

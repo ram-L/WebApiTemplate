@@ -1,6 +1,6 @@
 ﻿using Autofac;
 using WebApiTemplate.Api.Authorization;
-using WebApiTemplate.Application.Interfaces;
+using WebApiTemplate.Application.Interfaces.Api;
 
 namespace WebApiTemplate.Api.DependencyInjection
 {

@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.OData.Query;
 using Microsoft.AspNetCore.OData.Query.Validator;
 using Newtonsoft.Json;
 using WebApiTemplate.Api.Authorization;
-using WebApiTemplate.Application.Interfaces;
+using WebApiTemplate.Application.Interfaces.Application;
 using WebApiTemplate.Application.Models.User;
 using WebApiTemplate.SharedKernel.Enums;
 using WebApiTemplate.SharedKernel.Exceptions;

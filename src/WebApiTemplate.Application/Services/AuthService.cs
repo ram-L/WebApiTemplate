@@ -5,10 +5,11 @@ using Newtonsoft.Json;
 using System.Data;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using WebApiTemplate.Application.Interfaces;
+using WebApiTemplate.Application.Interfaces.Api;
+using WebApiTemplate.Application.Interfaces.Application;
+using WebApiTemplate.Application.Interfaces.Infrastructure;
 using WebApiTemplate.Application.Models.Auth;
 using WebApiTemplate.Domain.Entities;
-using WebApiTemplate.Infrastructure.Repositories.Interfaces;
 using WebApiTemplate.SharedKernel.Constants;
 using WebApiTemplate.SharedKernel.Enums;
 using WebApiTemplate.SharedKernel.Exceptions;
@@ -177,7 +178,7 @@ namespace WebApiTemplate.Application.Services
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
                 new Claim(UserClaimTypes.AccountType, user.AccountType.ToString()),
                 new Claim(UserClaimTypes.UserId, user.UserId.ToString()),
-                new Claim(UserClaimTypes.Permmisions, JsonConvert.SerializeObject(user.Permissions))
+                new Claim(UserClaimTypes.Permissions, JsonConvert.SerializeObject(user.Permissions))
             };
 
             var token = new JwtSecurityToken(authOptions.Issuer, authOptions.Audience, claims,
@@ -198,7 +199,7 @@ namespace WebApiTemplate.Application.Services
                 new Claim(ClientClaimTypes.ClientType, client.ClientType.ToString()),
                 new Claim(ClientClaimTypes.ClientId, client.ClientId.ToString()),
                 new Claim(ClientClaimTypes.ClientName, client.ClientName),
-                new Claim(UserClaimTypes.Permmisions, JsonConvert.SerializeObject(client.Permissions))
+                new Claim(ClientClaimTypes.Permissions, JsonConvert.SerializeObject(client.Permissions))
             };
 
             var token = new JwtSecurityToken(authOptions.Issuer, authOptions.Audience, claims,

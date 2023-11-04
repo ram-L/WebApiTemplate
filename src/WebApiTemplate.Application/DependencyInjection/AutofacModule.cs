@@ -1,5 +1,5 @@
 ﻿using Autofac;
-using WebApiTemplate.Application.Interfaces;
+using WebApiTemplate.Application.Interfaces.Application;
 using WebApiTemplate.Application.Services;
 
 namespace WebApiTemplate.Application.DependencyInjection

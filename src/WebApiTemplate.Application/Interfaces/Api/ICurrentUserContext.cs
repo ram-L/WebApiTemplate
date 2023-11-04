@@ -1,7 +1,6 @@
 ﻿using WebApiTemplate.SharedKernel.Enums;
-using System.Collections.Generic;
 
-namespace WebApiTemplate.Application.Interfaces
+namespace WebApiTemplate.Application.Interfaces.Api
 {
     /// <summary>
     /// Represents the interface for the current user context in the application.

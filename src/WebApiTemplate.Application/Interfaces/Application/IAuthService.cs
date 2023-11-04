@@ -1,9 +1,10 @@
 ﻿using Microsoft.IdentityModel.Tokens;
 using Microsoft.OData;
+using WebApiTemplate.Application.Interfaces.Api;
 using WebApiTemplate.Application.Models.Auth;
 using WebApiTemplate.SharedKernel.Enums;
 
-namespace WebApiTemplate.Application.Interfaces
+namespace WebApiTemplate.Application.Interfaces.Application
 {
     /// <summary>
     /// Provides an interface for authentication-related operations.

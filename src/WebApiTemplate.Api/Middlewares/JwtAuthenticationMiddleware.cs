@@ -44,7 +44,7 @@ namespace WebApiTemplate.Api.Middlewares
                 {
                     var claims = ((JwtSecurityToken)validatedToken).Claims.ToList();
 
-                    var permissionsClaim = claims.FirstOrDefault(c => c.Type == UserClaimTypes.Permmisions);
+                    var permissionsClaim = claims.FirstOrDefault(c => c.Type == UserClaimTypes.Permissions);
                     if (permissionsClaim != null)
                     {
                         var identity = new ClaimsIdentity(claims, "jwt");

@@ -2,7 +2,7 @@
 using WebApiTemplate.Application.Models.User;
 using WebApiTemplate.SharedKernel.Models;
 
-namespace WebApiTemplate.Application.Interfaces
+namespace WebApiTemplate.Application.Interfaces.Application
 {
     /// <summary>
     /// Represents the service for managing users.

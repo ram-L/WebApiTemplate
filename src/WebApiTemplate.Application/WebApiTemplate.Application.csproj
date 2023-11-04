@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\WebApiTemplate.Domain\WebApiTemplate.Domain.csproj" />
-    <ProjectReference Include="..\WebApiTemplate.Infrastructure\WebApiTemplate.Infrastructure.csproj" />
     <ProjectReference Include="..\WebApiTemplate.SharedKernel\WebApiTemplate.SharedKernel.csproj" />
   </ItemGroup>
 

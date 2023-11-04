@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WebApiTemplate.SharedKernel.Exceptions;
 
-namespace WebApiTemplate.Application.Interfaces
+namespace WebApiTemplate.Application.Interfaces.Api
 {
     public interface IAuthOptions
     {

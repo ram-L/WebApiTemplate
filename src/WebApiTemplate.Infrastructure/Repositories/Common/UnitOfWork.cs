@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
+using WebApiTemplate.Application.Interfaces.Infrastructure;
 using WebApiTemplate.Infrastructure.Data;
-using WebApiTemplate.Infrastructure.Repositories.Interfaces;
 using WebApiTemplate.SharedKernel.Interfaces;
 
 namespace WebApiTemplate.Infrastructure.Repositories.Common

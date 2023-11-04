@@ -1,6 +1,6 @@
 ﻿using EFCore.BulkExtensions;
 
-namespace WebApiTemplate.Infrastructure.Repositories.Interfaces
+namespace WebApiTemplate.Application.Interfaces.Infrastructure
 {
     /// <summary>
     /// Represents a unit of work that can be used to group one or more operations into a single transaction.

@@ -42,7 +42,7 @@ namespace WebApiTemplate.Api.Authorization
             }
 
             // Retrieve the permissions claim from the user's claims.
-            var permissionsClaim = user.Claims.FirstOrDefault(c => c.Type == UserClaimTypes.Permmisions);
+            var permissionsClaim = user.Claims.FirstOrDefault(c => c.Type == UserClaimTypes.Permissions);
             if (permissionsClaim == null)
             {
                 // If the permissions claim is not found, return a Forbidden result.

@@ -1,5 +1,5 @@
 ﻿using Newtonsoft.Json;
-using WebApiTemplate.Application.Interfaces;
+using WebApiTemplate.Application.Interfaces.Api;
 using WebApiTemplate.SharedKernel.Constants;
 using WebApiTemplate.SharedKernel.Enums;
 using WebApiTemplate.SharedKernel.Extensions;
@@ -23,7 +23,7 @@ namespace WebApiTemplate.Api.Authorization
         {
             get
             {
-                var permissonClaim = _httpContextAccessor.HttpContext?.User?.FindFirst(UserClaimTypes.Permmisions)?.Value;
+                var permissonClaim = _httpContextAccessor.HttpContext?.User?.FindFirst(UserClaimTypes.Permissions)?.Value;
                 if(permissonClaim == null)
                     return new Dictionary<PermissionResource, PermissionType>();
 

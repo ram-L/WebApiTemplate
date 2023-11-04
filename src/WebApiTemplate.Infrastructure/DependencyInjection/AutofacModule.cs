@@ -1,9 +1,8 @@
 ﻿using Autofac;
-using NetCoreApiTemplate.Infrastructure.Repositories.Interfaces;
+using WebApiTemplate.Application.Interfaces.Infrastructure;
 using WebApiTemplate.Infrastructure.Data;
+using WebApiTemplate.Infrastructure.Repositories;
 using WebApiTemplate.Infrastructure.Repositories.Common;
-using WebApiTemplate.Infrastructure.Repositories.Implementations;
-using WebApiTemplate.Infrastructure.Repositories.Interfaces;
 
 namespace WebApiTemplate.Infrastructure.DependencyInjection
 {
